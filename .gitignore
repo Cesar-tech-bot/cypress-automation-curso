@@ -22,3 +22,7 @@ Thumbs.db
 
 # Coverage (solo si usas @cypress/code-coverage)
 coverage/
+
+# Scripts internos para revisar secretos
+scan-secrets.js
+scan-git-secrets.js
