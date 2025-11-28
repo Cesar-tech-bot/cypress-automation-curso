@@ -1,0 +1,11 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene mis ejercicios y prácticas del curso de Cypress que estoy realizando para fortalecer mis habilidades como QA Automation.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cesar rivas",
+  "license": "ISC"
+}
