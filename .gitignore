@@ -10,6 +10,8 @@ cypress/screenshots/
 .env.local
 .env.development
 .env.production
+cypress.env.json
+*.secret
 
 # Logs
 npm-debug.log
