@@ -3,7 +3,11 @@
 describe('example to-do app', () => {
   beforeEach(() => {
     //cy.visit('https://laboratoriodetesting.com')
-    cy.visit('https://www.laboratoriodetesting.com/products/chaqueta-deportiva-para-correr')
+    //cy.visit('https://www.laboratoriodetesting.com/products/chaqueta-deportiva-para-correr') 
+    cy.setCookie(Cypress.env('nombre'),Cypress.env('token'),
+      {secure: true}
+    )
+    cy.visit('https://www.laboratoriodetesting.com/form-practice')
   })
 
   it('displays two todo items by default', () => {
