@@ -23,6 +23,7 @@ Este repositorio contiene mis ejercicios y prácticas del curso de Cypress que e
 
 ## 📝 Progreso
 Iré agregando nuevas pruebas conforme avance en el curso.
+-11/12/2025 - Se agrego un manejo de cookies para iniciar sesion en la pagina de pruebas por lo que es posible que algunas pruebas fallen si no se tiene el archivo .env 
 
 ## 📚 Tecnologías y herramientas
 - Cypress 13+
